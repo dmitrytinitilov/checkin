@@ -1,0 +1,6 @@
+include head.pug
+
+div(class='container')
+	form(method='POST' action='/check_quad')
+		input(name='quad_code' placeholder='quad code' type='text')
+		input(type='submit' value='Проверить код')
